@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class position : MonoBehaviour
 {
+    [SerializeField]
+    private Vector3 targetPosition; // The position you want to move the object to
+    
     public void ChangePosition()
     {
-        transform.position+=new Vector3(0,0.5f,0);
-
+        transform.position = targetPosition;
+        Debug.Log("Position: " + transform.position);
     }
 }
