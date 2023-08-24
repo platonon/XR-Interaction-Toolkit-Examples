@@ -10,6 +10,10 @@ TagManager:
   - MiniWorldCamera
   - Water
   - Teleporter
+  - MaskTeleporter
+  - Teleporter1
+  - Teleporter2
+  - Teleporter3
   layers:
   - Default
   - TransparentFX
