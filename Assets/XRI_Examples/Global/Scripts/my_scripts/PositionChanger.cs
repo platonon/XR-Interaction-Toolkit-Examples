@@ -14,12 +14,11 @@ public class PositionChanger : MonoBehaviour
         "mask_2",
         "mask_3",
         "mask_4",
-        "mask_5",
     };
 
     public void Update()
     {
-        if (AmountOfMask == 4)
+        if (AmountOfMask == 3)
         {
             transform.position = targetPosition;
             Debug.Log("Position: " + transform.position);
