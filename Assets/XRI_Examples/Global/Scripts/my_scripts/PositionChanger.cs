@@ -16,12 +16,19 @@ public class PositionChanger : MonoBehaviour
         "mask_4",
     };
 
+
+    public AudioSource source;
+    public AudioClip clip;
+
+
     public void Update()
     {
         if (AmountOfMask == 3)
         {
             transform.position = targetPosition;
             Debug.Log("Position: " + transform.position);
+            source.PlayOneShot(clip);
+            AmountOfMask = 0;
         }
         
     }
