@@ -9,8 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Peg_Orange
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+<<<<<<< Updated upstream
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
+=======
+  m_ValidKeywords:
+  - _EMISSION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+>>>>>>> Stashed changes
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -122,8 +129,13 @@ Material:
     - _BaseColor: {r: 1, g: 0.49936983, b: 0, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< Updated upstream
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 12.001898, g: 1.0098066, b: 0.04812291, a: 1}
+=======
+    - _Color: {r: 1, g: 0.49936974, b: 0, a: 1}
+    - _EmissionColor: {r: 24.003796, g: 2.1364636, b: 0.12567432, a: 1}
+>>>>>>> Stashed changes
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
